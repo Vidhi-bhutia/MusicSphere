@@ -54,5 +54,6 @@ MusicSphere/
 - 🌐 **Database Integration** to store and fetch song data dynamically.
 
 ## 🎶 Live Demo  
-[![Live MusicSphere](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://vidhi-bhutia.github.io/MusicSphere/)
+[Click here to visit MusicSphere](https://vidhi-bhutia.github.io/MusicSphere/)
+
 
