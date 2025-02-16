@@ -53,5 +53,6 @@ MusicSphere/
 - 📱 **Mobile Responsiveness** for a better experience on all devices.
 - 🌐 **Database Integration** to store and fetch song data dynamically.
 
-## 📌 Credits
-Developed by **Vidhi Bhutia** 🎵✨
+## 🎶 Live Demo  
+[![Live MusicSphere](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://vidhi-bhutia.github.io/MusicSphere/)
+
