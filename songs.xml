@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MusicLibrary>
+    <Language name="Hindi">
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/0zFoHrvbRu4?si=tlL41-0Ynuh3ougS]]></VideoURL>
+            <SongName><![CDATA[Dhaakad]]></SongName>
+            <Movie><![CDATA[Dangal]]></Movie>
+            <Actor><![CDATA[Aamir Khan]]></Actor>
+            <Actress><![CDATA[Sanya Malhotra, Fatima Sana Shaikh]]></Actress>
+            <Singer><![CDATA[Raftaar]]></Singer>
+            <Lyricist><![CDATA[Amitabh Bhattacharya]]></Lyricist>
+            <Year>2016</Year>
+            <Ratings>4.8</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/abiL84EAWSY?si=UtQWEu362I-DocOx]]></VideoURL>
+            <SongName><![CDATA[Sultan Title Song]]></SongName>
+            <Movie><![CDATA[Sultan]]></Movie>
+            <Actor><![CDATA[Salman Khan]]></Actor>
+            <Actress><![CDATA[Anushka Sharma]]></Actress>
+            <Singer><![CDATA[Sukhwinder Singh, Shadab Faridi]]></Singer>
+            <Lyricist><![CDATA[Irshad Kamil]]></Lyricist>
+            <Year>2016</Year>
+            <Ratings>4.6</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/7PzwOiW8-n0?si=9xdRTTQhQBB5ASfD]]></VideoURL>
+            <SongName><![CDATA[Aal Izz Well]]></SongName>
+            <Movie><![CDATA[3 Idiots]]></Movie>
+            <Actor><![CDATA[Aamir Khan]]></Actor>
+            <Actress><![CDATA[Kareena Kapoor]]></Actress>
+            <Singer><![CDATA[Sonu Nigam, Swanand Kirkire, Shaan]]></Singer>
+            <Lyricist><![CDATA[Swananad Kirkire]]></Lyricist>
+            <Year>2009</Year>
+            <Ratings>4.7</Ratings>
+        </Song>
+    </Language>
+
+    <Language name="English">
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/Q_VrDAMtTi8?si=M3WiJCxSrsJNjmBC]]></VideoURL>
+            <SongName><![CDATA[Up Where We Belong]]></SongName>
+            <Movie><![CDATA[An Ofiicer and a Genteman]]></Movie>
+            <Actor><![CDATA[Richard Gere]]></Actor>
+            <Actress><![CDATA[Debra Winger]]></Actress>
+            <Singer><![CDATA[Joe Cocker, Jennifer Warnes]]></Singer>
+            <Lyricist><![CDATA[Jack Nitzsche, Buffy SainteMarie, Will Jennings]]></Lyricist>
+            <Year>1982</Year>
+            <Ratings>4.1</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/CXueKy48rv0?si=1PV4yCwtOLesHzpD]]></VideoURL>
+            <SongName><![CDATA[After All]]></SongName>
+            <Movie><![CDATA[Chances Are]]></Movie>
+            <Actor><![CDATA[Robert Downey Jr.]]></Actor>
+            <Actress><![CDATA[Cybill Shepherd]]></Actress>
+            <Singer><![CDATA[Cher, Peter Cetera]]></Singer>
+            <Lyricist><![CDATA[Dean Pitchford, Tom Snow]]></Lyricist>
+            <Year>1989</Year>
+            <Ratings>3.8</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/7jH5CT3LCgE?si=QnvWLmM70NIiZYbe]]></VideoURL>
+            <SongName><![CDATA[The Way We Were]]></SongName>
+            <Movie><![CDATA[The Way We Were]]></Movie>
+            <Actor><![CDATA[Robert Redford]]></Actor>
+            <Actress><![CDATA[Lois Chiles]]></Actress>
+            <Singer><![CDATA[Barbra Streisand]]></Singer>
+            <Lyricist><![CDATA[Marvin Hamlisch]]></Lyricist>
+            <Year>1974</Year>
+            <Ratings>4.9</Ratings>
+        </Song>
+    </Language>
+
+    <Language name="Tamil">
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/Tz0bTrofPpw?si=ogdGkFXYgqKYMSbD]]></VideoURL>
+            <SongName><![CDATA[Thaniye]]></SongName>
+            <Movie><![CDATA[Vidaamuyarchi]]></Movie>
+            <Actor><![CDATA[Ajith Kumar]]></Actor>
+            <Actress><![CDATA[Trisha]]></Actress>
+            <Singer><![CDATA[Anirudh Ravichander]]></Singer>
+            <Lyricist><![CDATA[Mohan Rajan]]></Lyricist>
+            <Year>2025</Year>
+            <Ratings>4.8</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/WR8PyAhn6tQ?si=blawKjY964fm7WCp]]></VideoURL>
+            <SongName><![CDATA[Pathikichu]]></SongName>
+            <Movie><![CDATA[Vidaamuyarchi]]></Movie>
+            <Actor><![CDATA[Ajith Kumar]]></Actor>
+            <Actress><![CDATA[Trisha]]></Actress>
+            <Singer><![CDATA[Anirudh Ravichander & Yogi Sekar]]></Singer>
+            <Lyricist><![CDATA[Vishnu Edavan]]></Lyricist>
+            <Year>2025</Year>
+            <Ratings>4.5</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/-lHF7Hqg-wo?si=1uuh-ML-Tq097IFr]]></VideoURL>
+            <SongName><![CDATA[Dhinam Dhinamum]]></SongName>
+            <Movie><![CDATA[Viduthalai 2]]></Movie>
+            <Actor><![CDATA[Vijay Sethupathi]]></Actor>
+            <Actress><![CDATA[Manju Warrier]]></Actress>
+            <Singer><![CDATA[Ilaiyaraaja, Ananya Bhat]]></Singer>
+            <Lyricist><![CDATA[Ilaiyaraaja]]></Lyricist>
+            <Year>2024</Year>
+            <Ratings>4.1</Ratings>
+        </Song>
+    </Language>
+
+    <Language name="Telugu">
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/zkYxID1uqA0?si=fWTJOPnJqlk2uYML]]></VideoURL>
+            <SongName><![CDATA[Sawadeeka]]></SongName>
+            <Movie><![CDATA[Pattudala]]></Movie>
+            <Actor><![CDATA[Ajith Kumar]]></Actor>
+            <Actress><![CDATA[Trisha]]></Actress>
+            <Singer><![CDATA[Anthony Daasan, Anirudh Ravichander]]></Singer>
+            <Lyricist><![CDATA[Sri Sai Kiran]]></Lyricist>
+            <Year>2024</Year>
+            <Ratings>4.3</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/JSe58fxElGE?si=ZX-UAqvpmlyZ_Wlw]]></VideoURL>
+            <SongName><![CDATA[Pranam Kanna]]></SongName>
+            <Movie><![CDATA[Love Reddy]]></Movie>
+            <Actor><![CDATA[Anjan Ramachendra]]></Actor>
+            <Actress><![CDATA[Shravani Krishnaveni]]></Actress>
+            <Singer><![CDATA[Kailash Kher]]></Singer>
+            <Lyricist><![CDATA[Anantha Sriram, Krishnakanth]]></Lyricist>
+            <Year>2024</Year>
+            <Ratings>4.4</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/7lFAh_BR3_E?si=QH2Qz6rSJHqPr53F]]></VideoURL>
+            <SongName><![CDATA[Ullaasam]]></SongName>
+            <Movie><![CDATA[Saripodhaa Sanivaaram]]></Movie>
+            <Actor><![CDATA[Nani]]></Actor>
+            <Actress><![CDATA[Prinyanka Arul Mohan]]></Actress>
+            <Singer><![CDATA[Sanjith Hegde]]></Singer>
+            <Lyricist><![CDATA[Sanare]]></Lyricist>
+            <Year>2024</Year>
+            <Ratings>4.6</Ratings>
+        </Song>
+    </Language>
+
+    <Language name="Punjabi">
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/LYEqeUr-158?si=Bp7K_G8FDIVPfEHD]]></VideoURL>
+            <SongName><![CDATA[Sauda Khara Khara]]></SongName>
+            <Movie><![CDATA[Aashiqui 2]]></Movie>
+            <Actor><![CDATA[Akshay Kumar, Diljit Singh]]></Actor>
+            <Actress><![CDATA[Kareena Kapoor, Kiara Advani]]></Actress>
+            <Singer><![CDATA[Diljit Dosanjh, Sukhbir, Dhvani Bhanushali]]></Singer>
+            <Lyricist><![CDATA[Kumaar]]></Lyricist>
+            <Year>2019</Year>
+            <Ratings>4.8</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/ArCEQNhPz5I?si=YrKDoqWQE6-rh6ue]]></VideoURL>
+            <SongName><![CDATA[Pad Chakya Gaya]]></SongName>
+            <Movie><![CDATA[Puaada]]></Movie>
+            <Actor><![CDATA[Ammy Virk]]></Actor>
+            <Actress><![CDATA[Sonam Bajwa]]></Actress>
+            <Singer><![CDATA[Ammy Virk, Jasmeen Akhtar]]></Singer>
+            <Lyricist><![CDATA[Happy Raikoti]]></Lyricist>
+            <Year>2021</Year>
+            <Ratings>4.0</Ratings>
+        </Song>
+
+        <Song>
+            <VideoURL><![CDATA[https://www.youtube.com/embed/8WLeWKLPBSU?si=6pjpp_qxA9BGF43y]]></VideoURL>
+            <SongName><![CDATA[Aaye Haye Jattiye]]></SongName>
+            <Movie><![CDATA[Puaada]]></Movie>
+            <Actor><![CDATA[Ammy Virk]]></Actor>
+            <Actress><![CDATA[Sonam Bajwa]]></Actress>
+            <Singer><![CDATA[Ammy Virk]]></Singer>
+            <Lyricist><![CDATA[Happy Raikoti]]></Lyricist>
+            <Year>2021</Year>
+            <Ratings>4.4</Ratings>
+        </Song>
+    </Language>
+</MusicLibrary>

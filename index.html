@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicSphere 🎶 - Online Music Library</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Spotify-Inspired Theme */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #181818;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Logo */
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1DB954;
+        }
+
+        /* Navigation Buttons */
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-button {
+            background-color: transparent;
+            border: 2px solid #1DB954;
+            color: white;
+            padding: 8px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #1DB954;
+            color: black;
+        }
+
+        /* Song Container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Song Card */
+        .song-card {
+            background: #181818;
+            width: 320px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 255, 127, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .song-card:hover {
+            transform: scale(1.05);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 180px;
+        }
+
+        .song-info {
+            padding: 15px;
+        }
+
+        .song-info h3 {
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #1DB954;
+        }
+
+        .song-info p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navbar -->
+    <div class="navbar">
+        <div class="logo">🎶 MusicSphere</div>
+        <div class="nav-buttons">
+            <button class="nav-button" onclick="filterSongs('All')">Show All</button>
+            <button class="nav-button" onclick="filterSongs('Hindi')">Hindi</button>
+            <button class="nav-button" onclick="filterSongs('English')">English</button>
+            <button class="nav-button" onclick="filterSongs('Tamil')">Tamil</button>
+            <button class="nav-button" onclick="filterSongs('Telugu')">Telugu</button>
+            <button class="nav-button" onclick="filterSongs('Punjabi')">Punjabi</button>
+        </div>
+    </div>
+
+    <!-- Song Display Container -->
+    <div class="container" id="musicContainer">
+        <!-- Songs will be dynamically loaded here -->
+    </div>
+
+    <script>
+        let allSongs = [];
+
+        function loadXML() {
+            fetch('songs.xml')
+            .then(response => response.text())
+            .then(data => {
+                let parser = new DOMParser();
+                let xml = parser.parseFromString(data, "application/xml");
+                let languages = xml.getElementsByTagName("Language");
+
+                for (let i = 0; i < languages.length; i++) {
+                    let langName = languages[i].getAttribute("name");
+                    let songs = languages[i].getElementsByTagName("Song");
+
+                    for (let j = 0; j < songs.length; j++) {
+                        let songData = {
+                            language: langName,
+                            videoURL: songs[j].getElementsByTagName("VideoURL")[0].textContent,
+                            songname: songs[j].getElementsByTagName("SongName")[0].textContent,
+                            movie: songs[j].getElementsByTagName("Movie")[0].textContent,
+                            actor: songs[j].getElementsByTagName("Actor")[0].textContent,
+                            actress: songs[j].getElementsByTagName("Actress")[0].textContent,
+                            singer: songs[j].getElementsByTagName("Singer")[0].textContent,
+                            lyricist: songs[j].getElementsByTagName("Lyricist")[0].textContent,
+                            year: songs[j].getElementsByTagName("Year")[0].textContent,
+                            ratings: songs[j].getElementsByTagName("Ratings")[0].textContent
+                        };
+                        allSongs.push(songData);
+                    }
+                }
+
+                filterSongs('All'); // Show Hindi songs by default
+            })
+            .catch(error => console.error("Error loading XML:", error));
+        }
+
+        function filterSongs(language) {
+            let container = document.getElementById("musicContainer");
+            container.innerHTML = "";
+
+            let filteredSongs = language === 'All' ? allSongs : allSongs.filter(song => song.language === language);
+
+            filteredSongs.forEach(song => {
+                let card = document.createElement("div");
+                card.className = "song-card";
+                card.innerHTML = `
+                    <div class="video-container">
+                        <iframe src="${song.videoURL}" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="song-info">
+                        <h3>${song.songname}</h3>
+                        <p><strong>Movie:</strong> ${song.movie}</p>
+                        <p><strong>Actor:</strong> ${song.actor}</p>
+                        <p><strong>Actress:</strong> ${song.actress}</p>
+                        <p><strong>Singer:</strong> ${song.singer}</p>
+                        <p><strong>Lyricist:</strong> ${song.lyricist}</p>
+                        <p><strong>Year:</strong> ${song.year}</p>
+                        <p><strong>Ratings:</strong> ⭐${song.ratings}/5</p>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        window.onload = loadXML;
+    </script>
+
+</body>
+</html>
